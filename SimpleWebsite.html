@@ -7,14 +7,35 @@
         body {
             margin: 30px;
         }
+
+        .rectangle {
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .flex_container {
+            display: flex;
+            justify-content: space-between;
+        }
     </style>
 </head>
 
 <body>
     <h1>Our Simple Page</h1>
     <p>This is our simple page. It will include paragraphs</p>
-    <img
-        src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+    <!-- <img
+        src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /> -->
+    <div class="flex_container">
+        <div class="rectangle">
+            text
+        </div>
+        <div class="rectangle">
+            text
+        </div>
+    </div>
 </body>
 
 </html>
